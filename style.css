@@ -1,0 +1,36 @@
+.hero1 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6c/LG_%EC%8B%9C%EB%84%A4%EB%A7%88_3D_TV_%EC%83%88_%EB%AA%A8%EB%8D%B8_%E2%80%98%EC%86%8C%EB%85%80%EC%8B%9C%EB%8C%80%E2%80%99_%EC%98%81%EC%9E%85.jpg");
+
+  /* Set a specific height */
+  height: 100vh;
+  width: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero2 {
+  position: relative;
+  background-color: red;
+  height: 100vh;
+  width: 100%;
+  transition: ease-in-out .8s;
+}
+
+.header {
+  position: relative;
+  background-color: blue;
+  height: 100vh;
+  width: 100%;
+  transition: ease-in-out .8s;
+  transition: ease-in-out .8s;
+}
+
+.animate {
+  height: 100px;
+  position: fixed;
+  top: 0;
+}
